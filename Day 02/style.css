@@ -1,0 +1,29 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    /* border: 1px solid black; */
+}
+
+.container-fluid{
+    background: rgb(255,255,255);
+    background: linear-gradient(209deg, rgba(255,255,255,1) 0%, rgba(183,22,198,1) 0%, rgba(0,208,255,1) 100%); 
+}
+
+.form-container{
+    border-radius: 5px;
+}
+
+.form-title div{
+    border-radius: 5px 5px 0 0;
+}
+
+#yes,#no{
+    cursor: pointer;
+}
+
+input[type=text], option{
+    background-color: rgb(213, 211, 211);
+}

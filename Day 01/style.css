@@ -1,0 +1,51 @@
+:root{
+    --background-color:#8e24a2;
+    --login-form:#5c176a;
+    --sign-in:#5c176a;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    background-color: var(--background-color);
+}
+
+*{
+    /* border: 1px solid black; */
+}
+
+.login-form{
+    background-color: var(--login-form);
+    border-radius: 5px 5px 0 0;
+}
+
+.signin button{
+    background-color: var(--sign-in);
+}
+
+.forgot-password *{
+
+    color: var(--background-color) !important;
+}
+
+.form-container{
+    border-radius: 5px;
+    min-width: 390px;
+}
+
+.input-group-text{
+    border-left: none;
+    border-radius: 0 !important;
+}
+
+.form-control{
+    border-right: none !important;
+    border-radius: 0 !important;
+}
+
+.input-group-append{
+    border-radius: 0 !important;
+}
