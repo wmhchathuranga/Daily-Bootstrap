@@ -1,0 +1,55 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    /* border: 1px solid black; */
+}
+
+.input-group{
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 1px rgb(47, 214, 243);
+}
+
+.input-group input{
+    border-radius: 25px;
+}
+
+.input-group-append span{
+    border-radius: 25px;
+}
+
+.input-group-prepend span{
+    border-radius: 25px;
+}
+
+input::selection{
+    outline: none !important;
+}
+
+.create-account{
+    box-shadow: 0 0 10px 1px gray;
+    border-radius: 25px !important;
+    background: rgb(255,255,255);
+    background: linear-gradient(94deg, rgba(255,255,255,1) 0%, rgba(47,214,243,1) 0%, rgba(0,127,255,1) 100%); 
+}
+
+.right{
+    border-radius: 0 15px 15px 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(47,214,243,1) 0%, rgba(0,127,255,1) 100%); 
+}
+
+.form-container{
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 1px rgb(47, 214, 243);
+}
+
+.correct{
+    vertical-align: text-bottom;
+}
+
+a{
+    text-decoration: none !important;
+}
